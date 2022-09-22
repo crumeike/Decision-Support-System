@@ -1,0 +1,42 @@
+{
+  "$schema": "http://www.mimosa.org/ccom4/BOD/SyncMeasurements.json",
+  "syncMeasurements": {
+    "releaseID": "9.0",
+    "versionID": "1.0",
+    "applicationArea": {
+      "sender": { "logicalID": "032deea7-139f-1fa4-2f2d-f382519684d7" },
+      "creationDateTime": "2018-10-22T08:34:17Z",
+      "bODID": "76e0d7c3-97b7-5ee4-4f4d-975e80347655"
+    },
+    "dataArea": {
+      "sync": {},
+      "measurements": [
+        {
+          "measurementLocation": {
+            "UUID": "6EEBDB09-39EC-4E40-9FD9-3864FD49B0DB",
+            "shortName": "Headwater Elevation",
+            "infoSource": { "UUID": "9B005C91-A36F-4D69-A3ED-CC51E78E3A66" }
+          },
+          "measurement": [
+            {
+              "@@type": "SingleDataMeasurement",
+              "UUID": "611ee2af-12d5-5cec-578c-160c9aeb5118",
+              "recorded": { "dateTime": "2018-09-22T03:34:17Z" },
+              "infoSource": { "UUID": "9b005c91-a36f-4d69-a3ed-cc51e78e3a66" },
+              "data": {
+                "measure": {
+                  "value": 28.03,
+                  "unitOfMeasure": {
+                    "UUID": "73e8145d-7a92-49ef-9b10-6162a06f7876",
+                    "shortName": "Feet",
+                    "infoSource": { "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d" }
+                  }
+                }            
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
